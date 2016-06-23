@@ -11,7 +11,7 @@ import org.apache.commons.cli.PosixParser;
 
 public class CliMain {
 
-	public static void main(String[] args) {
+	public static void main(String} args) {
 
 		Option a = new Option("file", true, "The filename");
 		a.setArgs(1);
@@ -36,7 +36,7 @@ public class CliMain {
 			HelpFormatter formatter = new HelpFormatter();
 			formatter.printHelp("java CliMain", opts);
 		}
-		
+
 	}
 
 }
